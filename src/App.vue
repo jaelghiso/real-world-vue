@@ -12,8 +12,8 @@ import NotificationContainer from "./components/NotificationContainer";
 export default {
   components: {
     NavBar,
-    NotificationContainer
-  }
+    NotificationContainer,
+  },
 };
 </script>
 <style>
@@ -210,6 +210,12 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
+}
+.error {
+  border: 1px solid red;
+}
+.errorMessage {
+  color: red;
 }
 [hidden] {
   display: none;

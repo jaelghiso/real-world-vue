@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Beach Cleanup",
-      "date": "Aug 28 2018",
+      "date": "2019-01-03T21:54:00.000Z",
       "time": "10:00",
       "location": "Daytona Beach",
       "description": "Let's clean up this beach.",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "title": "Park Cleanup",
-      "date": "Nov 12 2018",
+      "date": "2019-01-31T22:09:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "We're going to clean up this park.",
@@ -51,7 +51,7 @@
     {
       "id": 3,
       "title": "Pet Adoption Day",
-      "date": "Dec 2 2018",
+      "date": "2019-02-02T12:00:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "Help animals find new homes.",
@@ -75,7 +75,7 @@
     {
       "id": 4,
       "title": "Disco Party",
-      "date": "Aug 28 2018",
+      "date": "2019-10-25T10:00:00.000Z",
       "time": "10:00",
       "location": "Daytona Beach",
       "description": "Let's clean up this beach.",
@@ -103,7 +103,7 @@
     {
       "id": 5,
       "title": "Vue Users Group",
-      "date": "Nov 12 2018",
+      "date": "2018-11-28T12:00:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "We're going to clean up this park.",
@@ -123,7 +123,7 @@
     {
       "id": 6,
       "title": "Orlando Dev Meetup",
-      "date": "Dec 2 2018",
+      "date": "2018-12-02T12:00:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "Help animals find new homes.",
@@ -147,7 +147,7 @@
     {
       "id": 7,
       "title": "Yoga Class",
-      "date": "Aug 28 2018",
+      "date": "2018-08-28T10:00:00.000Z",
       "time": "10:00",
       "location": "Daytona Beach",
       "description": "Let's clean up this beach.",
@@ -175,7 +175,7 @@
     {
       "id": 8,
       "title": "Breathing Meditation",
-      "date": "Nov 12 2018",
+      "date": "2018-11-28T12:00:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "We're going to clean up this park.",
@@ -195,7 +195,7 @@
     {
       "id": 9,
       "title": "Dancing Class",
-      "date": "Dec 2 2018",
+      "date": "2018-12-28T12:00:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "Help animals find new homes.",
@@ -254,7 +254,26 @@
       "date": "2020-04-19T10:14:00.000Z",
       "times": "",
       "attendess": [],
-      "time": ""
+      "time": "14:00"
+    },
+    {
+      "id": 8868531,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Puppy Promenade",
+      "description": "Yay puppies",
+      "location": "Bark",
+      "date": "2020-04-03T20:28:00.000Z",
+      "times": "",
+      "attendess": [],
+      "time": "13:00"
     }
   ]
 }
