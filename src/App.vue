@@ -12,8 +12,8 @@ import NotificationContainer from "./components/NotificationContainer";
 export default {
   components: {
     NavBar,
-    NotificationContainer,
-  },
+    NotificationContainer
+  }
 };
 </script>
 <style>
@@ -119,7 +119,6 @@ small {
   font-weight: 400;
   line-height: 26px;
 }
-.button.-fill-gradient,
 .badge.-fill-gradient {
   background: linear-gradient(to right, #16c0b0, #84cf6a);
   color: #fff;

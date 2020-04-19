@@ -1,10 +1,12 @@
 import Vue from "vue";
+import upperFirst from "lodash/upperFirst";
+import camelCase from "lodash/camelCase";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import "nprogress/nprogress.css";
 
-import upperFirst from "lodash/upperFirst";
-import camelCase from "lodash/camelCase";
+Vue.config.productionTip = false;
 
 const requireComponent = require.context(
   "./components",
@@ -12,7 +14,7 @@ const requireComponent = require.context(
   /Base[A-Z]\w+\.(vue|js)$/
 );
 
-requireComponent.keys().forEach(fileName => {
+requireComponent.keys().forEach((fileName) => {
   const componentConfig = requireComponent(fileName);
 
   const componentName = upperFirst(
@@ -22,10 +24,8 @@ requireComponent.keys().forEach(fileName => {
   Vue.component(componentName, componentConfig.default || componentConfig);
 });
 
-Vue.config.productionTip = false;
-
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount("#app");

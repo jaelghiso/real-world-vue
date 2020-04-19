@@ -1,11 +1,12 @@
 <template>
   <div class="icon-wrapper">
     <svg class="icon" :width="width" :height="height">
-      <use v-bind="{ 'xlink:href': 'feather-sprite.svg#' + name }" />
+      <use v-bind="{ 'xlink:href': '/feather-sprite.svg#' + name }"></use>
     </svg>
     <slot></slot>
   </div>
 </template>
+
 <script>
 export default {
   name: "Icon",
@@ -22,6 +23,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .icon-wrapper {
   display: inline-flex;
@@ -37,5 +39,5 @@ export default {
   stroke-linejoin: round;
   fill: none;
   margin-right: 6px;
-}</style
->>
+}
+</style>
