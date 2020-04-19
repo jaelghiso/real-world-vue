@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <NavBar />
-    <router-view />
+    <NotificationContainer />
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 <script>
 import NavBar from "./components/NavBar";
+import NotificationContainer from "./components/NotificationContainer";
+
 export default {
   components: {
-    NavBar
-  }
+    NavBar,
+    NotificationContainer,
+  },
 };
 </script>
 <style>
@@ -115,6 +119,7 @@ small {
   font-weight: 400;
   line-height: 26px;
 }
+.button.-fill-gradient,
 .badge.-fill-gradient {
   background: linear-gradient(to right, #16c0b0, #84cf6a);
   color: #fff;
